@@ -6,4 +6,7 @@ def home(request):
 def cashier(request):
     return render(request, "pages/cashier.html", {})
 
+def stock(request):
+    return render(request, "pages/stock.html", {})
+
 # Create your views here.

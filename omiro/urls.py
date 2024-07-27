@@ -23,4 +23,5 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('', views.home, name='home'),
     path('cashier', views.cashier, name='cashier'),
+    path('stock', views.stock, name='stock'),
 ]
